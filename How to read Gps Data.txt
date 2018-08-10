@@ -1,0 +1,12 @@
+when looking at serial output the gps will display a "NEMA Sentence". That is an acronym for the data that follows it. nema stands for the National Marine Electronics Association 
+$GPRMC stands for: Global Positioning Recommended Minimum Coordinates.
+the data following $GPRMC shows the time, date ,lat & lon, altitude, land speed, and fix type.
+fix type shows if the GPS has enough data for a loctation (2d fix) or location and altitude (3d fix)
+
+>http://www.gpsinformation.org/dale/nmea.htm more data on NEMA
+
+v in data means its Void or invaild
+a in data means that the gps got a fix and is working.
+
+example of how to decode: 4042.6142,N (Latitude 40 degrees, 42.6142 decimal minutes North) & 07400.4168,W. (Longitude 74 degrees, 0.4168 decimal minutes West)
+-TLS
